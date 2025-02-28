@@ -22,14 +22,16 @@ def main():
     
     with col1:  
         # ใส่รูปภาพโปรไฟล์ 
-        st.image("https://via.placeholder.com/150", caption="รูปโปรไฟล์")
+        st.image("./images/profile_intell-project.jpg", caption="ผู้จัดทำ")
     
     with col2:
         st.markdown("""
         **รหัสนักศึกษา:** 6604062630200  
         **ชื่อ-นามสกุล:** ณัฐวุฒิ ทรงคาศรี  
         **คณะ/สาขา:** CS  
-        **มหาวิทยาลัย:** พระจอมเกล้าพระนครเหนือ  
+        **ชั้นปีการศึกษา:** 2  
+        **มหาวิทยาลัย:** เทคโนโลยีพระจอมเกล้าพระนครเหนือ(king mongkut's university of technology north bangkok)
+
         **วิชา:** Intelligent system  
         **ภาคการศึกษา:** 2/2566  
         **อาจารย์ผู้สอน:** ณัฐกิตติ์ จิตรเอื้อตระกูล  
@@ -118,13 +120,13 @@ def main():
         
         # ใช้ภาพตัวอย่างแทนจนกว่าจะมีข้อมูลจริง
         with col1:
-            st.image("https://via.placeholder.com/150?text=Cloudy", caption="Cloudy")
+            st.image("./images/cloudy_example.jpg", caption="Cloudy")
         with col2:
-            st.image("https://via.placeholder.com/150?text=Rainy", caption="Rainy")
+            st.image("./images/rain_example.jpg", caption="Rainy")
         with col3:
-            st.image("https://via.placeholder.com/150?text=Sunny", caption="Sunny")
+            st.image("./images/shine_example.jpg", caption="Sunny")
         with col4:
-            st.image("https://via.placeholder.com/150?text=Sunrise", caption="Sunrise")
+            st.image("./images/sunrise_example.jpg", caption="Sunrise")
     
     # เทคโนโลยีที่ใช้
     st.header("เทคโนโลยีที่ใช้ในการพัฒนา")

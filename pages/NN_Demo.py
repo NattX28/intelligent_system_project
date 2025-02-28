@@ -151,18 +151,22 @@ sample_col1, sample_col2, sample_col3, sample_col4 = st.columns(4)
 # Placeholder for sample images (replace these with actual paths when deployed)
 with sample_col1:
     st.write("Cloudy")
+    st.image("./images/cloudy_example2.jpg")
     st.caption("Example of a cloudy sky")
 
 with sample_col2:
     st.write("Rainy")
+    st.image("./images/rain_example2.jpg")
     st.caption("Example of rainy weather")
 
 with sample_col3:
     st.write("Sunny")
+    st.image("./images/shine_example2.jpg")
     st.caption("Example of a sunny day")
 
 with sample_col4:
     st.write("Sunrise")
+    st.image("./images/sunrise_example2.jpg")
     st.caption("Example of a sunrise")
 
 # Technical details in an expandable section
