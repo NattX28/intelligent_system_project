@@ -152,12 +152,12 @@ def main():
     # คำแนะนำการใช้งาน
     st.header("คำแนะนำการใช้งานเว็บแอป")
     st.info("""
-    กรุณาเลือกหน้าที่ต้องการจากเมนูด้านซ้ายเพื่อเข้าสู่ส่วนต่างๆ ของโปรเจค:
+    สามารถเลือกหน้าที่ต้องการจาก Sidebar ด้านซ้ายเพื่อเข้าสู่ส่วนต่างๆ ของโปรเจค:
     
-    - **Data Preparation** - อธิบายการเตรียมข้อมูลสำหรับทั้งสองโมเดล
-    - **Model Theory** - ทฤษฎีและแนวคิดเกี่ยวกับ Machine Learning และ Neural Network
-    - **ML Demo** - ทดลองใช้งานโมเดล Machine Learning สำหรับวิเคราะห์และทำนายข้อมูลเพลง
-    - **NN Demo** - ทดลองใช้งานโมเดล Neural Network สำหรับจำแนกสภาพอากาศจากรูปภาพ
+    - **Machine Learning Description** - อธิบายการเตรียมข้อมูล ทฤษฎีและแนวคิดเกี่ยวกับ Machine Learning
+    - **Neural Network Description** - อธิบายการเตรียมข้อมูล ทฤษฎีและแนวคิดเกี่ยวกับ Neural Network
+    - **Machine Learning Demo** - ทดลองใช้งานโมเดล Machine Learning สำหรับวิเคราะห์และทำนายข้อมูลเพลง
+    - **Neural Network Demo** - ทดลองใช้งานโมเดล Neural Network สำหรับจำแนกสภาพอากาศจากรูปภาพ
     """)
 
 if __name__ == "__main__":
