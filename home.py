@@ -6,7 +6,6 @@ import matplotlib.pyplot as plt
 # กำหนดคอนฟิกของแอพ
 st.set_page_config(
     page_title="Intelligent System Project",
-    page_icon="🎵",
     layout="wide",
     initial_sidebar_state="expanded"
 )
